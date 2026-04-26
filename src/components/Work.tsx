@@ -11,19 +11,19 @@ const projects = [
     name: "SATYA",
     category: "Secure Identity System",
     tools: "FastAPI, JWT, PQC, Blockchain",
-    image: "/images/satya-project.png",
+    image: "./images/satya-project.png",
   },
   {
     name: "CTF Platform",
     category: "Cybersecurity Competition",
     tools: "Node.js, React, Socket.IO",
-    image: "/images/ctf-project.png",
+    image: "./images/ctf-project.png",
   },
   {
     name: "NetSentry",
     category: "Network Monitoring",
     tools: "Python, Flask, Nmap",
-    image: "/images/netsentry-project.png",
+    image: "./images/netsentry-project.png",
   },
 ];
 

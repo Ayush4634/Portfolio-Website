@@ -42,8 +42,8 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          <img src="/logo.png" alt="Ayush Nikose Logo" className="navbar-logo" />
+        <a href="#" className="navbar-title" data-cursor="disable">
+          <img src="logo.png" alt="Ayush Nikose Logo" className="navbar-logo" />
         </a>
         <a
           href="mailto:ayushnikose@gmail.com"
