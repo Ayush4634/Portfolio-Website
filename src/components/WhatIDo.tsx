@@ -88,23 +88,23 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h4>Full-Stack & Secure Applications</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Building scalable, secure web applications with modern
+                frameworks. Designing robust APIs, authentication systems, and
+                real-time platforms with a security-first mindset.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">Python</div>
                 <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
                 <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
                 <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">FastAPI</div>
+                <div className="what-tags">Flask</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">C/C++</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +128,23 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>SECURE</h3>
+              <h4>Cybersecurity & Threat Analysis</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Performing penetration testing, vulnerability assessment, and
+                network security analysis. Implementing post-quantum
+                cryptography, SSO, and API security for resilient systems.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Nmap</div>
+                <div className="what-tags">Wireshark</div>
+                <div className="what-tags">Burp Suite</div>
+                <div className="what-tags">SQLmap</div>
+                <div className="what-tags">Hydra</div>
+                <div className="what-tags">Nikto</div>
+                <div className="what-tags">Kali Linux</div>
+                <div className="what-tags">PQC</div>
               </div>
               <div className="what-arrow"></div>
             </div>

@@ -34,6 +34,36 @@ const setCharacter = (
                 child.castShadow = true;
                 child.receiveShadow = true;
                 mesh.frustumCulled = true;
+
+                // Colorize based on node name
+                const name = child.name || "";
+
+                // Skin color - 0xffcca8 (light peach skin tone)
+                // Face = Plane007, Ear = Ear001, Hand, Neck
+                if (
+                  name.includes("Ear") ||
+                  name.includes("Hand") ||
+                  name.includes("Neck") ||
+                  name === "Plane007" // Face mesh (exact match to avoid other Plane nodes)
+                ) {
+                  const mat = (mesh.material as THREE.MeshStandardMaterial).clone();
+                  mat.color.setHex(0xffcca8);
+                  mesh.material = mat;
+                }
+
+                // T-shirt to grey
+                if (name.includes("SHIRT")) {
+                  const mat = (mesh.material as THREE.MeshStandardMaterial).clone();
+                  mat.color.setHex(0x808080);
+                  mesh.material = mat;
+                }
+
+                // Jeans to black
+                if (name.includes("Pant")) {
+                  const mat = (mesh.material as THREE.MeshStandardMaterial).clone();
+                  mat.color.setHex(0x1a1a1a); // dark charcoal black
+                  mesh.material = mat;
+                }
               }
             });
             resolve(gltf);

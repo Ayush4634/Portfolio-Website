@@ -15,43 +15,43 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>B.Tech in Computer Science & Engineering</h4>
+                <h5>GLS University – Faculty of Engineering and Technology, Ahmedabad</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2022 – 2026</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Pursuing B.Tech in Computer Science & Engineering with a CGPA of
+              6.90 (up to Sem 7). Building a strong foundation in software
+              development, networking, and cybersecurity concepts.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>HSC & SSC</h4>
+                <h5>Vision International School of Excellence (CBSE), Ankleshwar</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2020 – 2022</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Completed HSC with 68.8% and SSC with 61%. Developed early
+              interest in technology and problem-solving.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Cybersecurity Intern</h4>
+                <h5>BISAG-N, Gandhinagar</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Dec 2025 – Apr 2026</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Developed secure authentication workflows and API security
+              mechanisms for real-world systems. Implemented Post-Quantum
+              Cryptography (ML-KEM), blockchain-based identity validation, and
+              secure data handling practices.
             </p>
           </div>
         </div>
